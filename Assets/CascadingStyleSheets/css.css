@@ -1,0 +1,301 @@
+body {
+    background: #111112;
+    padding: 0;
+    margin: 0;
+}
+h3 a:hover {
+  text-decoration: underline;
+}
+@font-face {
+  font-family: "Amaz"; /* Имя шрифта */
+  src: url(../Fonts/AmazS.T.A.L.K.E.R.v.3.0.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family: "Lettericac"; /* Имя шрифта */
+  src: url(../Fonts/Aglettericac.ttf); /* Путь к файлу со шрифтом */
+ }
+ @font-face {
+  font-family: "Pixel"; /* Имя шрифта */
+  src: url(../Fonts/small_pixel-7.ttf); /* Путь к файлу со шрифтом */
+ }
+.container-news {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+}
+.container-news.is-active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+}
+.container-game {
+  flex-wrap:wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.menu {
+  background: #111112;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  max-width: 125vh;
+  border-radius: 1.5vh;
+}
+.menu img {
+  object-fit: cover;
+}
+.menu-img {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.limitation {
+  background: #111112;
+  width: 75vh;
+  transform: translateX(54vh) translateY(-32vh);
+}
+.menu-game {
+  background: #1D2021;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  max-width: 75vh;
+  border-radius: 2.5vh;
+  margin: 12.5vh;
+}
+  .wallp {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .wallp>div {
+    line-height: 250px;
+    font-size: 100px;
+    text-align: center;
+  }
+  .wallp-img {
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: 100%; 
+    background-position: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
+  }
+  .font-stalker {
+    position: relative;
+    font-family: "Amaz";
+    font-size: 175px;
+    font-weight: 100;
+    color: white;
+    opacity: .9;
+  }
+  .font-lettericac {
+    font-family: "Lettericac";
+    font-size: 30px;
+    color: white;
+  }
+.navigation_menu {
+  position: relative;
+  background: #171819;
+  width: 100%;
+  z-index: 999;
+  font: normal 500 2.1vh -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-transform: uppercase;
+  letter-spacing: .5vh;
+}
+.link_nav_menu {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-auto-flow: column;
+  column-gap: 4.5vh;
+}
+.logo img {
+  margin-left: 20vh;
+  transform: translateY(7vh);
+}
+  
+  .navigation_menu a {
+    position: relative;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    transition: .2s;
+  }
+  .navigation_menu a:hover {
+    opacity: 1;
+  }
+
+  .navigation_menu_ {
+    position: relative;
+    background: #171819;
+    width: 100%;
+    z-index: 999;
+    font: normal 500 2.1vh -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: uppercase;
+    letter-spacing: .5vh;
+  }
+  .navigation_menu_ a {
+    position: relative;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+    transition: .2s;
+  }
+  .navigation_menu_ a:hover {
+    opacity: 1;
+  }
+.footer {
+  background: #1D2021;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 10;
+  height: 100%;
+}
+.link {
+  font-size: 8vh;
+  color: #fff;
+  opacity: .8;
+  transition: .2s;
+}
+.link:hover {
+  opacity: 1;
+}
+
+/* Вкладка Новости */
+.news {
+  margin-top: -25px;
+  text-align: center;
+  background: #1D2021;
+  width: 100%;
+}
+.news h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 40px;
+  padding-top: 50px;
+}
+.news h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  padding-bottom: 50px;
+}
+.link-news {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 10px;
+  color: #8592a3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  transition: .2s;
+  cursor: pointer;
+  width: 100%;
+}
+.link-news.is-active a {
+  color: #00a1ff;
+}
+.link-news:hover {
+  color: #00a1ff;
+}
+.link-news.is-active {
+color: #00a1ff;
+border-bottom:3px solid #00a1ff;
+}
+
+.game-card {
+  background: #1D2021;
+  color: #fff;
+  margin: 2vh;
+  position: relative;
+  height: 40vh;
+  transition: .2s;
+}
+.game-card:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+.game-card img {
+  height: 40vh;
+  position: relative;
+}
+.game-card h2 {
+  position: relative;
+  text-align: center;
+}
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction:row;
+}
+.links-footer {
+  margin: 10vh;
+  text-align: left;
+  background: #1D2021;
+  width: 40vh;
+}
+.links-footer a {
+  color: rgb(211, 211, 211);
+}
+.links-footer a:hover {
+  color: #fff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.news a:hover {
+  text-decoration: none;
+}
+.game-card-img {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://sun9-3.userapi.com/impg/pq5i7LCBAq9kOrL0BwcnMsQzwGCGoTc0Kmp1BQ/4T-rjE22E4c.jpg?size=1920x1080&quality=96&sign=7489a164e1598f94fcaffb71e7c92081&type=album);
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: 100%; 
+  background-position: 100%; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+}
+@media (max-width: 900px) {
+  .logo {
+    display: none;
+  }
+  .link_nav_menu {
+    margin-top: 7vh;
+  }
+  .navigation_menu_ a {
+    margin-bottom: 3vh;
+  }
+}
+@media (max-width: 376px) {
+  .navigation_menu {
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation_menu a{
+    margin-bottom: 1vh;
+  }
+}
+
